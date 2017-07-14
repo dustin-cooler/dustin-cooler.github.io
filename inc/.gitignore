@@ -1,6 +1,3 @@
-# never commit compiled code
-stylesheets/*
-
 # Temporary Sass files
 .sass-cache/
 
