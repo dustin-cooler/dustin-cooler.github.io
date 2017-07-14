@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/inc/stylesheets/application.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.2/pixi.min.js"></script>
+  <title>React + PIXI Memory</title>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="site-wrapper">
+    <div class="grid-wrapper">
+      <div id="heading" class="grid one-whole">
+        <h1>React + PIXI Memory</h1>
+      </div>
+      <div id="root" class="grid one-whole lap-one-half"></div>
+      <div id="description" class="grid one-whole lap-one-half">
+        <p>
+          This is a React and PIXI.js implementation of the classic game memory, which demonstrates using
+          the React component lifecycle to control a PIXI.js canvas. Additionally, it uses Redux for state
+          management and Redux Sagas for handling side effects. The images are fetched from the public Pixabay
+          API. <a href="https://github.com/dustin-cooler/examples/tree/master/react-pixi-memory">View the source on GitHub.</a>
+        </p>
+        <p>
+          I used this technique to recreate an interactive sales demo for a client. The original had been
+          written in Flash and ported to javascript/HTML, but was unmaintainable because the client did not
+          have the source .fla and the javascript version was uglified to the point of being nearly unreadable.
+          Once the javascript port started failing in newer browsers, it became apparent that the best course
+          would be to just recreate the sales piece from scratch. Due to time and budget constraints, I had less
+          than a week to pull it off. After researching options, I decided to use PIXI.js to handle the animations
+          and React/Redux to handle state and the html content of the demo. React made sense because I had just
+          finished a major React project and had no ramp-up time to switch to something else, and PIXI would let
+          me implement the various animations more performantly and with less code than using CSS or using canvas
+          directly. Plus, PIXI is well-documented and has plenty of examples I could use for reference.
+      </div>
+      <div class="grid one-whole lap-one-half">
+        <div class="legal">
+          <a href="https://pixabay.com/">Images from <img src="/inc/images/logo.png"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="/static/js/main.add5e84a.js"></script>
+</body>
+</html>
