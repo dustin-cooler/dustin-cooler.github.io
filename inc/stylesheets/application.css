@@ -3048,7 +3048,7 @@ body {
 
 /* line 7, ../scss/ui/_layout.scss */
 .site-wrapper {
-  max-width: 1440px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.75rem;
@@ -3060,7 +3060,7 @@ body {
 /* line 15, ../scss/ui/_layout.scss */
 .legal {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   padding-top: 0.25rem;
 }
 /* line 19, ../scss/ui/_layout.scss */
